@@ -12,26 +12,8 @@ struct ContentView: View {
         
         // may have to change to ScrollView
         VStack {
-            VStack{
-               //Top card
-                VStack {
-                    
-                    TopSection()
-             
-                    //one customer may have many accounts
-                    AccountCard()
-                    
-                }
-                .padding([.top, .leading, .trailing])
-                .padding(.bottom, 10)
-                
-                BottomCard()
- 
-            }
-            .background(Color.white)
-            .overlay(
-            RoundedRectangle(cornerRadius: 3)
-                .stroke(Color("LightGray"), lineWidth: 1))            }
+            AccountType()
+        }
         .padding()
      
     }
@@ -45,7 +27,5 @@ struct ContentView_Previews: PreviewProvider {
         }
     }
 }
-
-
 
 
