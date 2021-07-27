@@ -16,6 +16,7 @@ struct TopSection: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
             
             Spacer()
+            
             Button{}label:{
                 Text("Edit")
                     .modifier(TextRed())

@@ -10,12 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        
         // may have to change to ScrollView
         VStack {
-            
             VStack{
-                
                //Top card
                 VStack {
                     
