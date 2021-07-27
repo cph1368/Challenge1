@@ -19,18 +19,18 @@ struct ContentView: View {
                     HStack{
                         Text("Offset account")
                             .fontWeight(.semibold)
+                            .modifier(Header1())
                             .frame(maxWidth: .infinity, alignment: .leading)
                 
                         Spacer()
                         Button{}label:{
                             Text("Edit")
-                                .foregroundColor(Color("Red"))
+                                .modifier(TextRed())
                         }
                     }
                     .padding(.bottom,5)
              
                     VStack{
-                     
                         HStack {
                             Text("Westpac Choice")
                                 .fontWeight(.regular)
@@ -38,15 +38,14 @@ struct ContentView: View {
                             Text("$50,342.00")
                                 .fontWeight(.semibold)
                         }
-                        .foregroundColor(Color("Dark"))
-                        .font(.system(size: 17))
+                        .modifier(Header2())
                         .frame(maxWidth: .infinity, alignment: .leading)
                         
                         Text("Card ending in ...1234")
-                            .padding(.top, 5)
+                            .padding(.top, 1)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            .font(.system(size: 13))
-                            .foregroundColor(Color("DarkGray"))
+                            .modifier(TextGray())
+                    
                     }
                     .padding(.vertical,16)
                     .padding(.horizontal,16)
@@ -59,7 +58,7 @@ struct ContentView: View {
                 .padding(.bottom, 10)
                 
     
-           
+
                 BottomCard()
                    
        
@@ -82,32 +81,3 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct BottomCard: View {
-    var body: some View {
-        HStack {
-            Text("How is your Offset helping you save?")
-                .font(.system(size: 13))
-                .foregroundColor(Color("DarkGray"))
-                .padding(.leading)
-            
-            Spacer()
-            Button{} label:{
-                Text("Explore")
-                    .padding(10)
-                    .background(Color.white)
-                    .foregroundColor(Color("Dark"))
-                    .font(.caption)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 3)
-                            .stroke(Color("Red"), lineWidth: 1))
-                
-            }
-            .padding(.vertical, 10)
-            .padding(.horizontal, 16)
-            
-            
-        }
-        .background(Color("AccentColor"))
-        .frame(maxWidth: .infinity, alignment: .leading)
-    }
-}

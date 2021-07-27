@@ -11,6 +11,8 @@
 		4B1E715726AE54980023E005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E715626AE54980023E005 /* ContentView.swift */; };
 		4B1E715926AE549D0023E005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E715826AE549D0023E005 /* Assets.xcassets */; };
 		4B1E715C26AE549D0023E005 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1E715B26AE549D0023E005 /* Preview Assets.xcassets */; };
+		4B51B8F026B060C800C2E4C4 /* BottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51B8EF26B060C800C2E4C4 /* BottomCard.swift */; };
+		4B51B8F226B0610400C2E4C4 /* TextStyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51B8F126B0610400C2E4C4 /* TextStyleGuide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		4B1E715826AE549D0023E005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B1E715B26AE549D0023E005 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B1E715D26AE549D0023E005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B51B8EF26B060C800C2E4C4 /* BottomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCard.swift; sourceTree = "<group>"; };
+		4B51B8F126B0610400C2E4C4 /* TextStyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleGuide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				4B1E715426AE54980023E005 /* Challenge1App.swift */,
 				4B1E715626AE54980023E005 /* ContentView.swift */,
+				4B51B8F126B0610400C2E4C4 /* TextStyleGuide.swift */,
+				4B51B8EF26B060C800C2E4C4 /* BottomCard.swift */,
 				4B1E715826AE549D0023E005 /* Assets.xcassets */,
 				4B1E715D26AE549D0023E005 /* Info.plist */,
 				4B1E715A26AE549D0023E005 /* Preview Content */,
@@ -140,6 +146,8 @@
 			files = (
 				4B1E715726AE54980023E005 /* ContentView.swift in Sources */,
 				4B1E715526AE54980023E005 /* Challenge1App.swift in Sources */,
+				4B51B8F026B060C800C2E4C4 /* BottomCard.swift in Sources */,
+				4B51B8F226B0610400C2E4C4 /* TextStyleGuide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
