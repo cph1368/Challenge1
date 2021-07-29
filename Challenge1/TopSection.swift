@@ -22,7 +22,7 @@ struct TopSection: View {
                     .modifier(TextRed())
             }
         }
-        .padding(.bottom,5)
+        .padding(.bottom,0)
     }
 }
 
