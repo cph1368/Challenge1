@@ -30,8 +30,10 @@ struct ContentView: View {
  
             }
             .background(Color.white)
+            .cornerRadius(3)
+            // using corner radius to cut it off  before overlay
             .overlay(
-            RoundedRectangle(cornerRadius: 3)
+            RoundedRectangle(cornerRadius:3)
                 .stroke(Color("LightGray"), lineWidth: 1))            }
         .padding()
      
