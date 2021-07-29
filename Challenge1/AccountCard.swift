@@ -26,8 +26,8 @@ struct AccountCard: View {
                 .modifier(TextGray())
             
         }
-        .padding(.vertical,16)
-        .padding(.horizontal,16)
+        .padding()
+       // .padding(.horizontal,16)
         .overlay(
             RoundedRectangle(cornerRadius: 3)
                 .stroke(Color("LightGray")))
