@@ -18,7 +18,8 @@ struct BottomCard: View {
             Spacer()
             Button{} label:{
                 Text("Explore")
-                    .padding(10)
+                    .padding(.vertical, 5)
+                    .padding(.horizontal, 8)
                     .background(Color.white)
                     .foregroundColor(Color("Dark"))
                     .font(.caption)
