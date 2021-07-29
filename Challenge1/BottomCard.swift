@@ -28,7 +28,7 @@ struct BottomCard: View {
                             .stroke(Color("Red"), lineWidth: 1))
                 
             }
-            .padding(.vertical, 10)
+            .padding(.vertical, 8)
             .padding(.horizontal, 16)
             
             
