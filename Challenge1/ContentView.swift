@@ -24,7 +24,7 @@ struct ContentView: View {
                     
                 }
                 .padding([.top, .leading, .trailing])
-                .padding(.bottom, 10)
+                .padding(.bottom, 8)
                 
                 BottomCard()
  
