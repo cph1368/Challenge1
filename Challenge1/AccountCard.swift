@@ -12,7 +12,6 @@ struct AccountCard: View {
         VStack{
             HStack {
                 Text("Westpac Choice")
-                    .fontWeight(.regular)
                 Spacer()
                 Text("$50,342.00")
                     .fontWeight(.semibold)
@@ -26,8 +25,7 @@ struct AccountCard: View {
                 .modifier(TextGray())
             
         }
-        .padding(.vertical,16)
-        .padding(.horizontal,16)
+        .padding()
         .overlay(
             RoundedRectangle(cornerRadius: 3)
                 .stroke(Color("LightGray")))

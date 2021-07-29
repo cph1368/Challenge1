@@ -10,14 +10,14 @@ import SwiftUI
 struct Header1: ViewModifier{
     func body(content: Content) -> some View {
         content
-            .font(.system(size: 17))
+            .font(.body)
             .foregroundColor(Color("Blue"))
     }
 }
 struct Header2: ViewModifier{
     func body(content: Content) -> some View {
         content
-            .font(.system(size: 17))
+            .font(.body)
             .foregroundColor(Color("Dark"))
     }
 }
@@ -25,7 +25,7 @@ struct Header2: ViewModifier{
 struct TextSmall: ViewModifier{
     func body(content: Content) -> some View {
         content
-            .font(.system(size: 13))
+            .font(.footnote)
             .foregroundColor(Color("Dark"))
     }
 }
@@ -33,14 +33,14 @@ struct TextSmall: ViewModifier{
 struct TextGray: ViewModifier{
     func body(content: Content) -> some View {
         content
-            .font(.system(size: 13))
+            .font(.footnote)
             .foregroundColor(Color("DarkGray"))
     }
 }
 struct TextRed: ViewModifier{
     func body(content: Content) -> some View {
         content
-            .font(.system(size: 13))
+            .font(.footnote)
             .foregroundColor(Color("Red"))
     }
 }
