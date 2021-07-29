@@ -15,7 +15,6 @@
 		4B51B8F226B0610400C2E4C4 /* TextStyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51B8F126B0610400C2E4C4 /* TextStyleGuide.swift */; };
 		4B51B8F426B0667B00C2E4C4 /* AccountCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51B8F326B0667B00C2E4C4 /* AccountCard.swift */; };
 		4B51B8F626B0674B00C2E4C4 /* TopSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51B8F526B0674B00C2E4C4 /* TopSection.swift */; };
-		4B51B8F826B06CF600C2E4C4 /* AccountType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51B8F726B06CF600C2E4C4 /* AccountType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		4B51B8F126B0610400C2E4C4 /* TextStyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleGuide.swift; sourceTree = "<group>"; };
 		4B51B8F326B0667B00C2E4C4 /* AccountCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCard.swift; sourceTree = "<group>"; };
 		4B51B8F526B0674B00C2E4C4 /* TopSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSection.swift; sourceTree = "<group>"; };
-		4B51B8F726B06CF600C2E4C4 /* AccountType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 			children = (
 				4B1E715426AE54980023E005 /* Challenge1App.swift */,
 				4B1E715626AE54980023E005 /* ContentView.swift */,
-				4B51B8F726B06CF600C2E4C4 /* AccountType.swift */,
 				4B51B8F526B0674B00C2E4C4 /* TopSection.swift */,
 				4B51B8F326B0667B00C2E4C4 /* AccountCard.swift */,
 				4B51B8F126B0610400C2E4C4 /* TextStyleGuide.swift */,
@@ -154,7 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B1E715726AE54980023E005 /* ContentView.swift in Sources */,
-				4B51B8F826B06CF600C2E4C4 /* AccountType.swift in Sources */,
 				4B1E715526AE54980023E005 /* Challenge1App.swift in Sources */,
 				4B51B8F426B0667B00C2E4C4 /* AccountCard.swift in Sources */,
 				4B51B8F026B060C800C2E4C4 /* BottomCard.swift in Sources */,
