@@ -9,12 +9,11 @@ import SwiftUI
 
 struct TopSection: View {
     var body: some View {
-        HStack{
+        HStack(){
             Text("Offset account")
                 .fontWeight(.semibold)
                 .modifier(Header1())
-                .frame(maxWidth: .infinity, alignment: .leading)
-            
+           
             Spacer()
             
             Button{}label:{
@@ -22,7 +21,7 @@ struct TopSection: View {
                     .modifier(TextRed())
             }
         }
-        .padding(.bottom,0)
+        .padding(.bottom,8)
     }
 }
 

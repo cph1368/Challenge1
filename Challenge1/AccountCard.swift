@@ -10,24 +10,23 @@ import SwiftUI
 struct AccountCard: View {
     var body: some View {
         VStack(alignment: .leading){
-            HStack {
+            HStack{
                 Text("Westpac Choice")
                     .fontWeight(.regular)
                 Spacer()
                 Text("$50,342.00")
                     .fontWeight(.semibold)
             }
+            .padding(.bottom,4)
             .modifier(Header2())
             //.frame(maxWidth: .infinity, alignment: .leading)
             // added alignment on Vstack - code efficiency
             
             Text("Card ending in ...1234")
-                .padding(.top,1)
                 .modifier(TextGray())
             
         }
         .padding()
-       // .padding(.horizontal,16)
         .overlay(
             RoundedRectangle(cornerRadius: 3)
                 .stroke(Color("LightGray")))

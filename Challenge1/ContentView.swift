@@ -20,6 +20,7 @@ struct ContentView: View {
              
                     //one customer may have many accounts
                     AccountCard()
+                       
                     
                 }
                 .padding([.top, .leading, .trailing])
