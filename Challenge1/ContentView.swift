@@ -17,6 +17,14 @@ struct ContentView: View {
         // may have to change to ScrollView
         VStack {
             VStack{
+                
+                //testing to see if the data load correctly
+                ForEach(accountVM.account, id: \.id) {
+                    account in
+                    Text(account.acctype)
+                }
+            
+                
                //Top card
                 VStack {
                     
