@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var accountVM = AccountViewModel()
+    
     var body: some View {
+        //initialise class inside state object
         
         // may have to change to ScrollView
         VStack {
