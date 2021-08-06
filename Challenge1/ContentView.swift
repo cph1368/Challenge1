@@ -3,7 +3,8 @@
 //  Challenge1
 //
 //  Created by Corry Handayani on 26/7/21.
-//
+
+//Integrating with Firebase - Firestore 6/08/21
 
 import SwiftUI
 

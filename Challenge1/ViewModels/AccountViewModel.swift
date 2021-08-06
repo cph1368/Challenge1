@@ -3,7 +3,8 @@
 //  Challenge1
 //
 //  Created by Corry Handayani on 5/8/21.
-//
+// initialize and fetch data from Firestore
+// firestore integration
 
 import Foundation
 import Firebase
